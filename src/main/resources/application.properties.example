@@ -1,0 +1,25 @@
+# Copie este arquivo para "application.properties" e preencha com seus dados reais.
+# NUNCA suba o application.properties (com senha de verdade) para o GitHub.
+
+server.port=8080
+
+# ── Banco de dados (MySQL) — cadastro/login de usuários ──
+spring.application.name=financas
+spring.datasource.url=jdbc:mysql://localhost:3306/financas
+spring.datasource.username=root
+spring.datasource.password=
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+
+# ── Configuração SMTP (exemplo usando Gmail) ──
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=seuemail@gmail.com
+spring.mail.password=sua_senha_de_app_de_16_caracteres
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+
+# E-mail que aparece como remetente (geralmente igual ao spring.mail.username)
+mail.remetente=seuemail@gmail.com
