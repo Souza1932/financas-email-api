@@ -35,7 +35,7 @@ Comando de instalação: sudo apt update sudo apt install openjdk-21-jdk maven.
 ## NO TERMINAL LINUX UBUNTU
 
 23. Abra o terminal do Linux-Ubuntu 
-24. Insira o comando cd ~/financas-email-api 
+24. Insira o comando cd ~/financas-email-api-main 
 25. Insira o comando:  mvn spring-boot:run
 
 
