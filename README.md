@@ -1,13 +1,13 @@
 ## PASSO A PASSO DE INSTALAÇÃO DO SERVIDOR
 
-*1- Instale o Java 21 e o Maven, necessários para compilar e rodar o backend: 
+1 Instale o Java 21 e o Maven, necessários para compilar e rodar o backend: 
 comando de instalação: sudo apt update sudo apt install openjdk-21-jdk maven 
-*2- Baixe o MySQL no terminal Linux-Ubuntu  https://www.youtube.com/watch?v=Uuw4KPiVATc 
-*3- Acesse o console do MySQL com o comando de acesso: sudo mysql -u root -p
-*4- Digite a senha do MySQL
-*5- Insira o comando CREATE DATABASE financas 
-*6- Insira o comando USE financas 
-*7- COMANDO MYSQL PARA CRIAR USUÁRIO DA APLICAÇÃO: CREATE USER IF NOT EXISTS 'financas_app'@'localhost' IDENTIFIED BY 'SuaSenhaForte123'; 
+2- Baixe o MySQL no terminal Linux-Ubuntu  https://www.youtube.com/watch?v=Uuw4KPiVATc 
+3- Acesse o console do MySQL com o comando de acesso: sudo mysql -u root -p
+4- Digite a senha do MySQL
+5- Insira o comando CREATE DATABASE financas 
+6- Insira o comando USE financas 
+7- COMANDO MYSQL PARA CRIAR USUÁRIO DA APLICAÇÃO: CREATE USER IF NOT EXISTS 'financas_app'@'localhost' IDENTIFIED BY 'SuaSenhaForte123'; 
     No lugar de SuaSenhaForte123 CRIE UMA SENHA PARA SUBSTITUIR. 
 *8- DAR PERMISSÃO AO USUÁRIO: GRANT ALL PRIVILEGES ON financas.* TO 'financas_app'@'localhost'; 
 *9- APLICAR AS PERMISSÕES: FLUSH PRIVILEGES; 
