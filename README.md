@@ -38,6 +38,6 @@ Comando de instalação: sudo apt update sudo apt install openjdk-21-jdk maven.
 
 ## COMANDO MYSQL EXTRAS CASO PRECISEM
 
-1.TROCAR SENHA: ALTER USER 'financas_app'@'localhost' IDENTIFIED BY 'SUA_SENHA_NOVA_AQUI'; 
-2. VERIFICAR SEU CADASTRO OU OUTROS: SELECT*FROM usuarios; 
-3.VERIFICAR A SENHA DE PRIVILÉGIUS: mysql -u financas_app -p -h 127.0.0.1 financas -e "SELECT 1;"
+26.TROCAR SENHA: ALTER USER 'financas_app'@'localhost' IDENTIFIED BY 'SUA_SENHA_NOVA_AQUI'; 
+27.SELECT*FROM usuarios; 
+28.VERIFICAR A SENHA DE PRIVILÉGIUS: mysql -u financas_app -p -h 127.0.0.1 financas -e "SELECT 1;"
