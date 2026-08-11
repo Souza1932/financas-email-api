@@ -13,6 +13,8 @@ Comando de instalação: sudo apt update sudo apt install openjdk-21-jdk maven.
 9. APLICAR AS PERMISSÕES: FLUSH PRIVILEGES;
 10. Saia do console do MySQL com o comando: EXIT; 
 
+## ARQUIVO FINANCAS-EMAIL-API
+
 11. Extrair o arquivo financas-email-api 
 12. Acesse o arquivo financas-email-api 
 13. Clique no arquivo src 
@@ -36,8 +38,9 @@ Comando de instalação: sudo apt update sudo apt install openjdk-21-jdk maven.
 24. Insira o comando cd ~/financas-email-api 
 25. Insira o comando:  mvn spring-boot:run
 
+
 ## COMANDO MYSQL EXTRAS CASO PRECISEM
 
-26.TROCAR SENHA: ALTER USER 'financas_app'@'localhost' IDENTIFIED BY 'SUA_SENHA_NOVA_AQUI'; 
-27.SELECT*FROM usuarios; 
-28.VERIFICAR A SENHA DE PRIVILÉGIUS: mysql -u financas_app -p -h 127.0.0.1 financas -e "SELECT 1;"
+1. TROCAR SENHA: ALTER USER 'financas_app'@'localhost' IDENTIFIED BY 'SUA_SENHA_NOVA_AQUI'; 
+2. SELECT*FROM usuarios; 
+3. VERIFICAR A SENHA DE PRIVILÉGIUS: mysql -u financas_app -p -h 127.0.0.1 financas -e "SELECT 1;"
